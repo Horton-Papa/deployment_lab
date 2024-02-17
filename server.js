@@ -9,8 +9,8 @@ will change based on what system you’re on.
 
 This code will look for static files (e.g. HTML, CSS) in a folder called "public"
 */
+// middleware
 app.use(express.static(`${__dirname}/public`));
-
 
 
 
